@@ -1,0 +1,782 @@
+/* *************************************
+************ common style***************
+************************************** */
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+    text-rendering: optimizeLegibility;
+
+}
+/* *************************************
+************ common style***************
+************************************** */
+
+
+
+
+/* *************************************
+*****home and header section start ******
+************************************** */
+.header{
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(rgb(135,80,156 ,0.9),rgb(135,80,156 ,0.9)), url(image/bg-img.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    min-height: 31.25rem;
+}
+.navbar{
+    position: fixed;
+    height: 6.5rem;
+    z-index: 999 !important;
+    box-shadow: 0 0 5px rgb(193, 190, 190);
+    background-color: rgb(135,80,156);
+}
+.navbar-nav{
+    padding-top: 1rem;
+}
+.navbar-brand{
+    color: #fafafa;
+    padding-left: 10rem;
+    font-size: 3rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar-brand:hover{
+    color: rgb(255, 93, 35);
+}
+.active{
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.navbar-nav li {
+    margin-top: -1.5rem;
+    margin-left: 2rem;
+    transition: all 0.3s ease;
+}
+.navbar-nav li a{
+    color: white;
+    height: 3rem;
+    min-width: 7rem;
+    display: flex;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    padding: .33rem 1rem .33rem 1rem;
+}
+.navbar-nav li:hover a{
+    color: rgb(0, 5, 30);
+    border-radius: 0.5rem;
+    background:#f5f2f6;
+}
+
+/* home section start */
+.homeSec{
+    min-height: 55rem;
+    display: flex;
+    padding-top: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.homeSec h1{
+    font-size: 4rem;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+}
+.homeSec a{
+    width: 22rem;
+    height: 5rem;
+    margin:4rem auto;
+    display: flex;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-radius: .3rem;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 0 0 5px;
+    border-bottom: 4px solid #c86a40;
+    justify-content: center;
+    background-color: #eb7d4b;
+    font-family: 'Titillium Web', sans-serif;
+}
+/* *************************************
+*****home and header section end ******
+************************************** */
+
+
+
+/* *************************************
+*****SERVICES section2 start  start ******
+************************************** */
+.section2{
+    background: linear-gradient( rgb(23,194,164, 0.9), rgb(23,194,164, 0.9)) , url(image/service.jpg)  ;
+    padding-top: 100px;
+    min-height: 70rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+.section2 h2{
+    color: white;
+    font-size: 4rem;
+    font-weight: 600;
+}
+.section2 h2::after{
+    content: "";
+    width: 8.5rem;
+    display: block;
+    height: 5px;
+    margin:1rem auto;
+    margin-left: auto;
+    background-color: #14a58c;
+}
+
+.section2 .sec2PTag{
+    color: white;
+    font-size: 1.8rem;
+    padding-top: 1rem;
+}
+.section2 .col-md-3 img{
+    height: 12.5rem;
+    z-index: 0;
+}
+.section2 .col-md-3 h4{
+    color: white;
+    padding-top: 3rem;
+    font-size: 2.4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.section2 .col-md-3 p{
+    color: rgb(230, 230, 230);
+    padding-top: 3rem;
+    font-size: 1.6rem;
+    font-weight: 100;
+    max-width: 280px;
+}
+/* *************************************
+*****SERVICES section2 start end ******
+************************************** */
+
+
+
+/* *************************************
+******** team section 3 start **********
+************************************** */
+.section3{
+    background: #e7f1f8;
+    padding-top: 10rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section3 .container{
+    padding: 2rem;
+}
+.section3 h3{
+    color: #3c4761;
+    text-align: center;
+    font-size: 4.2rem;
+    font-weight: 600;
+}
+.section3 h3::after{
+    content: "";
+    width: 8.5rem;
+    display: block;
+    height: 5px;
+    margin:1rem auto;
+    margin-left: auto;
+    background-color: #c8d9e5;
+}
+.section3 .sec3Ptag{
+    color: #535e75;
+    text-align: center;
+    font-size: 1.8rem;
+    padding-top: 1rem;
+}
+.section3 .row{
+    padding-top: 4rem;
+}
+.section3 .col-md-3 img{
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 100px;
+    /* border: 4px solid #bdd1df; */
+    box-shadow: 0 0 10px rgb(14, 14, 14);
+}
+.section3 .col-md-3 h4{
+    color: #27283d;
+    font-weight: 600;
+    font-size: 2.4rem;
+    padding-top: 2rem;
+}
+.section3 .col-md-3 h6{
+    color: #48c1e9;
+    font-weight: 600;
+    font-size: 1.6rem;
+    padding-top: 0.5rem;
+}
+.section3 .col-md-3 p{
+    color: #3c4761;
+    font-weight: 600;
+    font-size: 1.6rem;
+    padding-top: 0.5rem;
+}
+.contactIcon {
+    padding: 2rem 0 6rem 0;
+}
+.contactIcon a{
+    text-decoration: none;
+    /* transition: all 0.5s ease; */
+}
+.contactIcon i{
+    color: white;
+    padding: 0.7rem;
+    font-size: 1.7rem;
+    margin-right: 1rem;
+    border-radius: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:   #bdd1df;
+    transition: all 0.3s ease;
+}
+.contactIcon a i:hover{
+    color: orangered;
+    transform: rotate(90deg);
+    background-color:   #262728;
+}
+/* *************************************
+******** team section 3 end **********
+************************************** */
+
+
+
+/* *************************************
+********  skilled section 4 start ********
+************************************** */
+.section4 {
+    background:linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(image/skill.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.section4 .container-fluid{
+    padding: 8rem;
+    max-width: 136rem;
+}
+.section4 h4{
+    color: #3c4761;
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: center;
+}
+.section4 h4::after{
+    content: "";
+    width: 8.5rem;
+    display: block;
+    height: 5px;
+    margin:1rem auto;
+    margin-left: auto;
+    background-color: #dfe8ed;
+}
+.section4 .sec4ptag{
+    color: #3c4761;
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 1rem;
+    max-width: 60rem;
+}
+.section4 .col-md-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+svg.radial-progress {
+    height: auto;
+    max-width: 200px;
+    padding: 1em;
+    transform: rotate(-90deg);
+    width: 100%;
+    
+}
+svg.radial-progress circle {
+    fill: rgba(0,0,0,0);
+    stroke: #fff;
+    stroke-dashoffset: 219.91148575129; 
+    stroke-width: 6;
+}
+svg.radial-progress circle.incomplete { 
+    opacity: 0.25;
+} 
+svg.radial-progress circle.complete { stroke-dasharray: 219.91148575129; }
+  
+svg.radial-progress text {
+    fill: #393939;
+    font-size: 1.5rem;
+    text-anchor:middle;
+
+    text-transform: uppercase;
+}
+svg.web-design circle{
+    stroke: #30bae7;
+}
+svg.html-Css circle{
+    stroke: #d74680;
+}
+svg.graphics-design circle{
+    stroke: #15c7a8;
+}
+svg.ui-ux circle{
+    stroke: #eb7d4b;
+}
+.section4 h3{
+    text-align: center;
+    color: #3c4761;
+    font-weight: 700;
+}
+/* *************************************
+********  skilled section 4 end ********
+************************************** */
+
+
+/* *************************************
+****** OUR PORTFOLIO section 5 start ****
+************************************** */
+.section5{
+    min-height: 900px;
+    background:#ffdd99 ;
+}
+.section5 .container-fluid{
+    padding: 8rem;
+    max-width: 136rem;
+}
+.section5 .container{
+    padding: 8rem ;
+}
+.section5 h5{
+    color: #393939;
+    font-size: 4rem;
+    font-weight: 500;
+    text-align: center;
+}
+.section5 h5::after{
+    content: "";
+    width: 8.5rem;
+    display: block;
+    height: 5px;
+    margin:1rem auto;
+    margin-left: auto;
+    background-color: #e5c37f;
+}
+.section5 .sec5ptag{
+    color: #393939;
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 1rem;
+    max-width: 60rem;
+}
+.section5 .tab{
+    display: flex;
+    padding-top: 2rem;
+    justify-content: center;
+}
+.section5 .tab .allBtn{
+    background-color: white;
+}
+.section5 .tab button{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    width: 8rem;
+    padding: 1rem;
+    display: flex;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    border-radius: 0.5rem;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    background-color: #ebc985;
+}
+.section5 .col-md-6{
+    padding-top: 3rem;
+}
+.section5 .col-md-6 p{
+    color: #393939;
+    padding-top: 2.5rem;
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+.moreDiv{
+    padding-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.moreDiv .more{
+    width: 20rem;
+    height: 5rem;
+    font-size: 1.5rem;
+    color: white;
+    background: #17c2a4;
+    text-decoration: none;
+    box-shadow: 0 0 5px rgb(224, 220, 220);
+}
+/* *************************************
+****** OUR PORTFOLIO section 5 end ****
+************************************** */
+
+
+/* *************************************
+****** people feedback section 6 start ****
+************************************** */
+.section6 {
+    background: #d74680;
+}
+.section6 .container{
+    padding: 8rem ;
+}
+.section6 .sec6Head{
+    color: #ffffff;
+    font-size: 4rem;
+    font-weight: 500;
+    text-align: center;
+}
+.section6 .sec6Head::after{
+    content: "";
+    width: 8.5rem;
+    display: block;
+    height: 5px;
+    margin:1rem auto;
+    margin-left: auto;
+    background-color: #b73c6d;
+}
+.section6 .sec6ptag{
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 1rem;
+}
+.section6 .col-md-6{
+    display: flex;
+    padding-top: 3.5rem;
+    justify-content: center;
+}
+.section6 .col-md-6 img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10rem;
+    box-shadow: 0 0 5px rgb(224, 220, 220);
+}
+.section6 .col-md-6 .text{
+    padding-left: 3rem;
+}
+.section6 .text h5{
+    color: white;
+    font-style: oblique;
+    font-size: 2.1rem;
+}
+.section6 .text h6{
+    color: white;
+    font-weight: 600;
+    font-size: 2.2rem;
+    padding-top: 2rem;
+}
+.section6 .text p{
+    color: #ffdd99;
+    font-size: 1.8rem;
+}
+.section6 .rowGap{
+    padding-top: 5rem;
+}
+/* *************************************
+****** people feedback section 6 end ****
+************************************** */
+
+
+
+
+/* *************************************
+****** contact section 7 start  ****
+************************************** */
+.section7 {
+    background:linear-gradient(rgb(60,84,153,0.9),rgb(60,84,153,0.9)), url(image/message.jpg) ;
+    padding: 8rem 0 8rem 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: -1rem;
+}
+.section7 .container-fluid{
+    max-width: 1000px;
+}
+.section7 h2{
+    color: #ffffff;
+    font-size: 4rem;
+    font-weight: 500;
+    text-align: center;
+}
+.section7 h2::after{
+    content: "";
+    width: 8.5rem;
+    display: block;
+    height: 5px;
+    margin:1rem auto;
+    margin-left: auto;
+    background-color: #273a71;
+}
+.section7 p{
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 1rem;
+}
+.section7 .col-md-6{
+    padding-top: 4rem;
+}
+.section7 .col-md-6 input{
+    height: 4.5rem;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 5px rgb(224, 220, 220);
+    background: #273a71;
+}
+.section7 .col-md-6 input::placeholder{
+    color: #9aa3bd;
+    font-size: 1.5rem;
+}
+.section7  textarea{
+    color: #9aa3bd;
+    margin-top: 2rem;
+    background: #273a71;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 5px;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+.section7  textarea::placeholder{
+    color: #9aa3bd;
+}
+.section7  textarea:hover{
+    background: #273a71;
+}
+.section7  textarea:visited{
+    background: #273a71;
+}
+.section7 .messegeBtn{
+    display: flex;
+    background: ff004e;
+    padding-top: 2rem;
+    justify-content: center;
+    
+}
+.section7 .messegeBtn a{
+    min-width: 25rem;
+    height: 6rem;
+    display: flex;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    background: #30bae7;
+    border-bottom: 0.5rem solid #299ec5;
+}
+/* *************************************
+****** contact section 7 end  ****
+************************************** */
+
+
+/* *************************************
+****** confooter section start ********
+************************************** */
+footer{
+    background: #344b8e;
+    padding: 2rem;
+    margin-top: -1rem;
+}
+footer .container-fluid{
+    max-width: 1000px;
+}
+
+footer a{
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+footer .row .col-sm-2 a{
+    display: flex;
+    justify-content: center;
+}
+footer p{
+    color: rgb(210, 210, 210);
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: -1rem;
+}
+footer p a{
+    color: rgb(0, 0, 165);
+    text-decoration: underline;
+}
+footer hr{
+    color: white;
+    width: 100%;
+}
+/* *************************************
+****** confooter section end ********
+************************************** */
+
+
+
+
+
+
+/* *************************************
+****** responsive section start ********
+************************************** */
+@media (max-width:768px){
+    /* navbar start */
+    .navbar-brand{
+        padding-left: 2rem;
+        height: 3.5rem;
+    }
+    .navbar-toggler{
+        border: none;
+        outline: none;
+        margin-right: 2rem;
+    }
+    .navbar-toggler img{
+        width: 4rem;
+        height: 3rem;
+    }
+    .navbar-nav{
+        position: absolute;
+        top: 5rem;
+        width: 100%;
+        background-color: #30336b;
+        transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        -ms-transition: all 0.4s ease-in-out;
+        -o-transition: all 0.4s ease-in-out;
+}
+    .nav-item{
+        padding-top: 2rem;
+    }
+    /* navbar end */
+    .homeSec h1{
+        font-size: 2.5rem;
+    }
+    .section2 h2{
+        font-size: 2.5rem;
+    }
+    .sec2PTag{
+        font-size: 1.5rem;
+    }
+    .section2 .col-md-3 h4{
+        font-size: 2rem;
+    } 
+    .section3 h3{
+        font-size: 2.5rem;
+    }
+    .section3 .col-md-3 h4{
+        font-size: 2rem;
+    }
+    .section4 h4{
+        font-size: 2.5rem;
+    }
+    
+    .section5 h5{
+        font-size: 2.5rem;
+    }
+    .section5 .sec5ptag{
+        font-size: 1.4rem;
+    }
+    .section7 h2{
+        font-size: 3rem;
+    }
+    .section7 .messegeBtn a{
+        min-width: 15rem;
+        height: 4rem;
+        font-size: 1.3rem;
+    }
+    /* footer start */
+    footer a{
+        padding-top: 1rem;
+    }
+    footer p a{
+        display: block;
+    }
+    /* foter end */
+}
+
+
+@media  (max-width:992px){
+    /* navbar start */
+    .navbar-brand{
+        padding-left: 1rem;
+        height: 3.5rem;
+    }
+    .navbar-nav li {
+        margin-left: 1rem;
+    }
+    .navbar-nav li a{
+        font-size: 1.3rem;
+    }
+    /* navbar end */
+    .homeSec h1{
+        font-size: 3rem;
+    }
+    .section6 .sec6Head{
+        font-size: 2.5rem;
+    }
+    .section6 .col-md-6{
+        display: block;
+        font-size: 2.5rem;
+        justify-content: center;
+    }
+    .section6 .col-md-6 .text{
+        padding-top: 2rem;
+        padding-left: 0.1rem;
+        text-align: start;
+    }
+}
+/* *************************************
+****** responsive section end ********
+************************************** */
