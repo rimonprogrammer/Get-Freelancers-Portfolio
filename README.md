@@ -21,7 +21,7 @@ This a a Get-freelancer Portfolio website. This website is made with html, css, 
   <li>SEO-friendly & well-commented code</li>
 </ul>
 
-Live: https://rimonprogrammer.github.io/Funbrain_Educational/
+Live: https://rimonprogrammer.github.io/Get-Freelancers-Portfolio/
 <h4>Follow the 3 Steps to get the project</h4>
 <ul>
   <li>Clone the Project</li>
