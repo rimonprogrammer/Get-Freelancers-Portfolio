@@ -22,7 +22,7 @@ This a a Get-freelancer Portfolio website. This website is made with html, css, 
 </ul>
 
 Live: https://rimonprogrammer.github.io/Get-Freelancers-Portfolio/
-<h4>Follow the 3 Steps to get the project</h4>
+<h4>Follow the Step to live the project</h4>
 <ul>
   <li>Download the project and open it in the code editor. Then right-click on the index.html file and click open with live server.</li>
 </ul>
