@@ -28,7 +28,7 @@ Live: https://rimonprogrammer.github.io/Get-Freelancers-Portfolio/
 </ul>
 
 
-<h4>Project screenshot</h4>
+<h4>Get-freelancer Portfolio website home page</h4>
 <img src="https://rimonprogrammer.netlify.app/public/get_freelancer-1.jpg" alt="Get-freelancer Portfolio website screenshot" >
 <img src="https://rimonprogrammer.netlify.app/public/get_freelancer-2.jpg" alt="Get-freelancer Portfolio website screenshot" >
 <img src="https://rimonprogrammer.netlify.app/public/get_freelancer-3.jpg" alt="Get-freelancer Portfolio website screenshot" >
